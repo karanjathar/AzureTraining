@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "basicfunc"
+    },
+    "location": {
+      "value": "centralindia"
+    },
+    "resourceGroupName": {
+      "value": "rg-basic-azure-func"
+    },
+    "instanceMemoryMB": {
+      "value": 2048
+    },
+    "maximumInstanceCount": {
+      "value": 10
+    }
+  }
+}
